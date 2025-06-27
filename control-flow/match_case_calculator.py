@@ -2,7 +2,7 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 oparator = input("Choose the operation (+, -, *, /): ").strip()
 
-match oparator:
+match oparation:
     case "+":
         sum = num1 + num2
         print(f"The result is {sum}.")
